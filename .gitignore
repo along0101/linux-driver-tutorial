@@ -1,10 +1,8 @@
-.vscode
-.idea
-*.o
-*.mod.h
+*
+!.gitignore
+!*.h
+!*.c
+!*.md
+!Makefile
+!CMakeList.txt
 *.mod.c
-*.mod
-*.cmd
-*.ko
-*.symvers
-*.order
