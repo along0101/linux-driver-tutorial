@@ -2,6 +2,7 @@
 
 
 ## Linux驱动开发环境搭建
+* 查找include目录`find /usr/ -name usb.h`,fedora39在`/usr/src/kernels/$(shell uname -r)/include/`
 
 
 ## Reference

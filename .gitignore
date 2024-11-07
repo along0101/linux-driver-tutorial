@@ -1,8 +1,8 @@
-*
-!.gitignore
-!*.h
-!*.c
-!*.md
-!Makefile
-!CMakeList.txt
-*.mod.c
+.vscode/
+*.cmd
+*.mod
+*.mod.*
+*.o
+*.ko
+*.order
+*.symvers
