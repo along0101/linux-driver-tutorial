@@ -4,7 +4,7 @@
 
 #define DRIVER_VERSION "v0.1"
 #define DRIVER_AUTHOR "zhongqilong <tsilone@qq.com>"
-#define DRIVER_DESC "USB Hello Driver"
+#define DRIVER_DESC "USB Info Driver"
 
 MODULE_AUTHOR(DRIVER_AUTHOR);
 MODULE_DESCRIPTION(DRIVER_DESC);
