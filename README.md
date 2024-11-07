@@ -1,8 +1,13 @@
 # Linux Driver Tutorial
 
+* 进入响应的目录，执行`make`命令编译驱动程序，执行`make clean`命令清除编译结果。
+* 安装和卸载驱动：`sudo insmod hello.ko`和`sudo rmmod hello`
+* 查看日志：`sudo dmesg | tail -n20`
+
 
 ## Linux驱动开发环境搭建
 * 查找include目录`find /usr/ -name usb.h`,fedora39在`/usr/src/kernels/$(shell uname -r)/include/`
+* 安装头文件依赖：`sudo dnf install kernel-devel kernel-headers`
 
 
 ## Reference
